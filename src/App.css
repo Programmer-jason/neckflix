@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+}
+.title {
+    color: rgba(193, 0, 0, 0.802);
+    text-shadow: 1px 1px 1px rgba(254, 254, 254, 0.802),
+                -1px -1px 1px rgba(255, 255, 255, 0.802);
+    font-size: 30px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgba(94, 255, 0, 0.802);
+    width: 100%;
+    text-align: center;
+}
+.content {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+/* .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+} */
+.search {
+    width: 35%;
+    height: 40px;
+    border-radius: 7px;
+    padding-left: 5px;
+    background-color: black;
+    border: 1px solid rgb(71, 255, 47);
+    /* box-shadow: 1px 1px 5px rgb(71, 255, 47),
+                -1px -1px 5px rgb(71, 255, 47); */
+                background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(201, 201, 201));
+                margin-left: 80px;
+    text-align: center;
+}
+.btn-search {
+    border: rgb(0, 242, 255);
+    /* box-shadow: 1px 1px 5px rgb(47, 102, 255),
+                -1px -1px 5px rgb(47, 102, 255); */
+                background-image: linear-gradient(to bottom right, rgb(0, 242, 255), rgb(48, 110, 216));
+    width: 5%;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.searchMe {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-two {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: inherit;
+    
+}
+
+.movie {
+    width: 300px;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.movie-year {
+    height: 30px;
+    width: 300px;
+    background-image: linear-gradient(rgba(94, 255, 0, 0.802), green);
+    border-radius: 3px;
+    margin: auto;
+    /* box-shadow: 1px 1px 5px rgb(255, 47, 47),
+                -1px -1px 5px rgb(255, 47, 47); */
+    margin-bottom: 5px;
+    padding-top: 5px;
+    
+    
+}
+.movie-type {
+    height: 80px;
+    width: 300px;
+    border: none;
+    background-image: linear-gradient(rgba(94, 255, 0, 0.802), green);
+    border-radius: 3px;
+    margin: auto;
+    /* box-shadow: 1px 1px 5px yellow,
+                -1px -1px 5px green; */
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
